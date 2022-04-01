@@ -35,7 +35,7 @@ Changed
 -censurato lo splashes:§bYou're a di##, MGPlatinum!
 Removed
 -rimosso mojangstudios nella resources
--rimosse alcune stanze inutili
+-rimosse alcune stanze inutili della ant farm forbiden
 
 Known Issues: 
 -objective enchants is not possible thanks Grompus to report
@@ -51,4 +51,34 @@ Added
 -aggiunto changelog alla funzione
 
 JE-0a
+Github: https://github.com/Lorenzo0310200/Ant-Farm-Remasterd
+
+
+JE-AFTR:VERSION:1.0.1
+
+
+-AFTR-
+
+Changed
+-migliorato il dungeon della ant farm forbiden (riparate alcune stanze) Nota: Il dungeon è ancora in uno stato disastroso
+
+Removed
+-rimossa la nave della sky ant farm
+-rimossi alcuni file per ridudere lo spazio
+
+Known Issues: 
+-objective enchants is not possible thanks Grompus to report
+-some objective may be impossible
+
+
+-SkyAFSR-
+
+Added
+-aggiunta una torcia all'inizio
+
+Removed
+-rimossa la piattaforma sotto nella hub
+-rimossi alcuni file per ridudere lo spazio
+
+JE-1a
 Github: https://github.com/Lorenzo0310200/Ant-Farm-Remasterd
