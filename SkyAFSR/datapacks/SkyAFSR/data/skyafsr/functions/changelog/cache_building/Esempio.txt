@@ -1,7 +1,0 @@
-# usare gli shader solo nelle versioni stabili. usare niente nelle versioni instabili anche le NightBuilding
-
-Uso:
-aggiungere sempre lo screenshot promozionale
-rimuovere sepre quello veccho
-
-(rimuovere Esempio.txt quando si inizia una nuova mappa)
