@@ -10,7 +10,7 @@
       "text": "Brew a Splash Potion of Regeneration II"
     }
   },
-  "parent": "antfarm:extreme/root",
+  "parent": "afstrilogyr:extreme/root",
   "criteria": {
     "brew_regeneration_potion": {
       "trigger": "minecraft:brewed_potion",

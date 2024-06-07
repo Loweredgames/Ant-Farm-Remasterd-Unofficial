@@ -7,7 +7,7 @@
     "description": "Acquire TNT",
     "frame": "task"
   },
-  "parent": "antfarm:root",
+  "parent": "afstrilogyr:root",
   "criteria": {
     "get_tnt": {
       "trigger": "minecraft:inventory_changed",

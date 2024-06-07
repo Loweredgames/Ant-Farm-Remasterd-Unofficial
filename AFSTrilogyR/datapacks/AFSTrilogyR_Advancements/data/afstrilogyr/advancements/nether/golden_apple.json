@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "antfarm:nether/gold_nuggets",
+  "parent": "afstrilogyr:nether/gold_nuggets",
   "criteria": {
     "make_golden_apple": {
       "trigger": "minecraft:recipe_crafted",

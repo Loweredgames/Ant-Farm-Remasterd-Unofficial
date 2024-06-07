@@ -7,7 +7,7 @@
     "description": "Find and activate the hidden chicken spawner",
     "frame": "task"
   },
-  "parent": "antfarm:wheat_farm",
+  "parent": "afstrilogyr:wheat_farm",
   "criteria": {
     "find_chicken_spawner": {
       "trigger": "minecraft:location",

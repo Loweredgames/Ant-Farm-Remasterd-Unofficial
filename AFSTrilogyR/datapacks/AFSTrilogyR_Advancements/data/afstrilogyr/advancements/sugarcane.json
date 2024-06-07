@@ -7,7 +7,7 @@
     "description": "Find and harvest sugar cane",
     "frame": "task"
   },
-  "parent": "antfarm:wheat_farm",
+  "parent": "afstrilogyr:wheat_farm",
   "criteria": {
     "find_sugar_cane": {
       "trigger": "minecraft:inventory_changed",

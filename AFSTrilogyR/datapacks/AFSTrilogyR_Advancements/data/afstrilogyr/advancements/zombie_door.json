@@ -6,7 +6,7 @@
     "title": "The Zombies Ate Your Brains!",
     "description": "Activate the zombie door"
   },
-  "parent": "antfarm:reach_floor",
+  "parent": "afstrilogyr:reach_floor",
   "criteria": {
     "push_zombie_button": {
       "trigger": "minecraft:default_block_use",

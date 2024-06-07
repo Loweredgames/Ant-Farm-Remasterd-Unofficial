@@ -11,7 +11,7 @@
     "title": "The Healing Power Of... Healing",
     "description": "Brew a healing potion"
   },
-  "parent": "antfarm:nether/enter_fortress",
+  "parent": "afstrilogyr:nether/enter_fortress",
   "criteria": {
     "healing": {
       "trigger": "minecraft:brewed_potion",

@@ -10,7 +10,7 @@
       "text": "Craft full Diamond Armor and Tools (no hoe)"
     }
   },
-  "parent": "antfarm:extreme/root",
+  "parent": "afstrilogyr:extreme/root",
   "criteria": {
     "diamond_gear": {
       "trigger": "minecraft:inventory_changed",

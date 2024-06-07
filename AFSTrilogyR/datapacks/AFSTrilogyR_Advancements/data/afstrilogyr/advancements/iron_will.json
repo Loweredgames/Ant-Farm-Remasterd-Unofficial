@@ -13,7 +13,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "antfarm:root",
+  "parent": "afstrilogyr:root",
   "criteria": {
     "iron_shovel": {
       "trigger": "minecraft:inventory_changed",

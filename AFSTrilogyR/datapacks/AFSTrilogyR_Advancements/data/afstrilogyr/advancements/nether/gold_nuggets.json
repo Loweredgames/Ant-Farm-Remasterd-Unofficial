@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "antfarm:nether/root",
+  "parent": "afstrilogyr:nether/root",
   "criteria": {
     "get_gold_nuggets": {
       "trigger": "minecraft:inventory_changed",

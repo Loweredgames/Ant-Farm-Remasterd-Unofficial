@@ -7,7 +7,7 @@
     "description": "Find and harvest glowstone",
     "frame": "task"
   },
-  "parent": "antfarm:nether/root",
+  "parent": "afstrilogyr:nether/root",
   "criteria": {
     "find_glowstone": {
       "trigger": "minecraft:inventory_changed",

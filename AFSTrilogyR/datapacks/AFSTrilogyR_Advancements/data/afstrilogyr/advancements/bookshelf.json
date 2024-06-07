@@ -7,7 +7,7 @@
     "description": "Craft a bookshelf",
     "frame": "task"
   },
-  "parent": "antfarm:sugarcane",
+  "parent": "afstrilogyr:sugarcane",
   "criteria": {
     "make_bookshelf": {
       "trigger": "minecraft:recipe_crafted",

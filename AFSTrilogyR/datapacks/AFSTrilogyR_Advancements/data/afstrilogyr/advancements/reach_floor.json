@@ -6,7 +6,7 @@
     "title": "Floor Gang",
     "description": "Reach the floor"
   },
-  "parent": "antfarm:escape_ant_farm",
+  "parent": "afstrilogyr:escape_ant_farm",
   "criteria": {
     "reach_floor": {
       "trigger": "minecraft:location",

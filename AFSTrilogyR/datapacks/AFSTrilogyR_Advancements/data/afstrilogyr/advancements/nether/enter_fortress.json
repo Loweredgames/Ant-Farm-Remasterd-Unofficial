@@ -6,7 +6,7 @@
     "title": "A Terrible Palace",
     "description": "Locate and enter the Nether Fortress"
   },
-  "parent": "antfarm:nether/gold_nuggets",
+  "parent": "afstrilogyr:nether/gold_nuggets",
   "criteria": {
     "find_fortress": {
       "trigger": "minecraft:location",

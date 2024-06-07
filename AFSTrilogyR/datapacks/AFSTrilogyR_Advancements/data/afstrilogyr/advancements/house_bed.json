@@ -7,7 +7,7 @@
     "description": "Make your house a home with a bed",
     "frame": "goal"
   },
-  "parent": "antfarm:glass",
+  "parent": "afstrilogyr:glass",
   "criteria": {
     "craft_bed": {
       "trigger": "minecraft:recipe_crafted",

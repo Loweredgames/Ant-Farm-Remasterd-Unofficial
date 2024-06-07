@@ -7,7 +7,7 @@
     "description": "Craft a cake",
     "frame": "challenge"
   },
-  "parent": "antfarm:chicken_spawner",
+  "parent": "afstrilogyr:chicken_spawner",
   "criteria": {
     "make_cake": {
       "trigger": "minecraft:recipe_crafted",

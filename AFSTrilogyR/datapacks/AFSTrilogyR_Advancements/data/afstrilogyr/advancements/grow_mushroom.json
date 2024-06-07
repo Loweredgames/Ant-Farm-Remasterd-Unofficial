@@ -6,7 +6,7 @@
     "title": "Something Is Stewing...",
     "description": "Find and grow a red or brown mushroom"
   },
-  "parent": "antfarm:wheat_farm",
+  "parent": "afstrilogyr:wheat_farm",
   "criteria": {
     "bone_meal_mushroom": {
       "trigger": "minecraft:item_used_on_block",

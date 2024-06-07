@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "antfarm:iron_will",
+  "parent": "afstrilogyr:iron_will",
   "criteria": {
     "make_bucket": {
       "trigger": "minecraft:recipe_crafted",

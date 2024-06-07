@@ -6,7 +6,7 @@
     "title": "The End",
     "description": "Get on top of the bed and watch the credits"
   },
-  "parent": "antfarm:reach_floor",
+  "parent": "afstrilogyr:reach_floor",
   "criteria": {
     "find_message": {
       "trigger": "minecraft:location",

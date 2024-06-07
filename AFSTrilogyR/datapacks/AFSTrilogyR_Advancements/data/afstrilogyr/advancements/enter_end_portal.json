@@ -6,7 +6,7 @@
     "title": "The Next Chapter",
     "description": "Activate and enter the secret End Portal to the Extreme Ant Farm"
   },
-  "parent": "antfarm:reach_floor",
+  "parent": "afstrilogyr:reach_floor",
   "criteria": {
     "enter_end_portal": {
       "trigger": "minecraft:changed_dimension",

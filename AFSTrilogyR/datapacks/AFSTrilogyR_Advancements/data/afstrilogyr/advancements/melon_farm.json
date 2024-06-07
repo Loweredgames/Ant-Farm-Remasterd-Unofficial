@@ -6,7 +6,7 @@
     "title": "Plant Melon",
     "description": "Plant some melon seeds to start a melon farm"
   },
-  "parent": "antfarm:wheat_farm",
+  "parent": "afstrilogyr:wheat_farm",
   "criteria": {
     "plant_melon": {
       "trigger": "minecraft:item_used_on_block",

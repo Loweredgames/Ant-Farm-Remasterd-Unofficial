@@ -6,7 +6,7 @@
     "title": "Freedom at Last",
     "description": "Escape the Ant Farm (save this for last)"
   },
-  "parent": "antfarm:enter_nether",
+  "parent": "afstrilogyr:enter_nether",
   "criteria": {
     "leave_ant_farm": {
       "trigger": "minecraft:location",

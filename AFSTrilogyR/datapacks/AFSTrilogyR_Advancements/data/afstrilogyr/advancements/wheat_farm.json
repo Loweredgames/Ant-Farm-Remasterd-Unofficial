@@ -7,7 +7,7 @@
     "description": "Plant, grow and harvest a wheat farm",
     "frame": "task"
   },
-  "parent": "antfarm:root",
+  "parent": "afstrilogyr:root",
   "criteria": {
     "plant_wheat": {
       "trigger": "minecraft:item_used_on_block",

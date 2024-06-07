@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "antfarm:root",
+  "parent": "afstrilogyr:root",
   "criteria": {
     "tame_wolf": {
       "trigger": "minecraft:tame_animal",

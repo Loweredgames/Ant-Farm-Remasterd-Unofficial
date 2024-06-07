@@ -6,7 +6,7 @@
     "title": "Superhot",
     "description": "Collect 9 buckets of lava (you'll need these later)"
   },
-  "parent": "antfarm:nether/root",
+  "parent": "afstrilogyr:nether/root",
   "criteria": {
     "9_lava_buckets": {
       "trigger": "minecraft:inventory_changed",

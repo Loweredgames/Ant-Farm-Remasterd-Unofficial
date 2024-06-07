@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "antfarm:make_bucket",
+  "parent": "afstrilogyr:make_bucket",
   "criteria": {
     "water_source": {
       "trigger": "minecraft:inventory_changed",

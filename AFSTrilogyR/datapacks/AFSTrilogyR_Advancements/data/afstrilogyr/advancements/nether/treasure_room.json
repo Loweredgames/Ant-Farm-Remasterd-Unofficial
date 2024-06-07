@@ -8,7 +8,7 @@
     "frame": "challenge",
     "hidden": true
   },
-  "parent": "antfarm:nether/enter_fortress",
+  "parent": "afstrilogyr:nether/enter_fortress",
   "criteria": {
     "find_treasure_room": {
       "trigger": "minecraft:location",

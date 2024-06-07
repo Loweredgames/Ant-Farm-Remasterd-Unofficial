@@ -6,7 +6,7 @@
     "title": "DIAMONDS!!",
     "description": "Acquire something made of diamond"
   },
-  "parent": "antfarm:iron_will",
+  "parent": "afstrilogyr:iron_will",
   "criteria": {
     "diamond": {
       "trigger": "minecraft:inventory_changed",

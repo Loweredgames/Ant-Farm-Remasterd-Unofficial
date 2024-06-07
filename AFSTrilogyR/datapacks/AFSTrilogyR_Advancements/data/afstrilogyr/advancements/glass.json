@@ -12,7 +12,7 @@
     "show_toast": true,
     "announce_to_chat": true
   },
-  "parent": "antfarm:root",
+  "parent": "afstrilogyr:root",
   "criteria": {
     "make_bow": {
       "trigger": "minecraft:recipe_crafted",

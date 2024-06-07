@@ -13,7 +13,7 @@
     "show_toast": true,
     "announce_to_chat": true
   },
-  "parent": "antfarm:diamonds",
+  "parent": "afstrilogyr:diamonds",
   "criteria": {
     "enter_nether": {
       "trigger": "minecraft:changed_dimension",

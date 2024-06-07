@@ -8,7 +8,7 @@
     "frame": "challenge",
     "hidden": true
   },
-  "parent": "antfarm:compass",
+  "parent": "afstrilogyr:compass",
   "criteria": {
     "craft_map": {
       "trigger": "minecraft:recipe_crafted",
