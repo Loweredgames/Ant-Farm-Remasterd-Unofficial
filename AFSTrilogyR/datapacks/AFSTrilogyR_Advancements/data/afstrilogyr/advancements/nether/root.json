@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherrack"
+    },
+    "title": {
+      "text": "Ant Farm: The Nether"
+    },
+    "description": {
+      "text": "Begin your journey in the Nether Ant Farm."
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/nether.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "start_nether": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_nether"
+      }
+    }
+  }
+}

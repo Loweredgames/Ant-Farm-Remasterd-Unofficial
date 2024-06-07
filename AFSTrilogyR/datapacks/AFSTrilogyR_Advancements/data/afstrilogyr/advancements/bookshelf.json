@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bookshelf"
+    },
+    "title": "Light Reading",
+    "description": "Craft a bookshelf",
+    "frame": "task"
+  },
+  "parent": "antfarm:sugarcane",
+  "criteria": {
+    "make_bookshelf": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bookshelf"
+      }
+    }
+  }
+}

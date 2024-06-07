@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:splash_potion"
+    },
+    "title": {
+      "text": "Master Brewer"
+    },
+    "description": {
+      "text": "Brew a Splash Potion of Regeneration II"
+    }
+  },
+  "parent": "antfarm:extreme/root",
+  "criteria": {
+    "brew_regeneration_potion": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:strong_regeneration"
+      }
+    }
+  }
+}

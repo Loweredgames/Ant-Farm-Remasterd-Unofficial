@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glass_pane"
+    },
+    "title": {
+      "text": "The Ant Farm"
+    },
+    "description": {
+      "text": "Your journey begins here"
+    },
+    "background": "minecraft:textures/gui/options_background.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "start": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crafting_table"
+          }
+        ]
+      }
+    }
+  }
+}

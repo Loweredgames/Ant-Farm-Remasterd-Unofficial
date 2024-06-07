@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_chestplate"
+    },
+    "title": {
+      "text": "Fully Stacked Diamonds"
+    },
+    "description": {
+      "text": "Craft full Diamond Armor and Tools (no hoe)"
+    }
+  },
+  "parent": "antfarm:extreme/root",
+  "criteria": {
+    "diamond_gear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {},
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_helmet"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:diamond_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:diamond_leggings"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:diamond_boots"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:diamond_sword"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:diamond_pickaxe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:diamond_axe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:diamond_shovel"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

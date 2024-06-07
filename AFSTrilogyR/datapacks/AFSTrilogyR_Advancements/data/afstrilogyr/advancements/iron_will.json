@@ -1,0 +1,78 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_pickaxe"
+    },
+    "title": {
+      "text": "Iron Will"
+    },
+    "description": {
+      "text": "Craft iron tools"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "antfarm:root",
+  "criteria": {
+    "iron_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_shovel"
+          }
+        ]
+      }
+    },
+    "iron_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_pickaxe"
+          }
+        ]
+      }
+    },
+    "iron_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_sword"
+          }
+        ]
+      }
+    },
+    "iron_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_axe"
+          }
+        ]
+      }
+    },
+    "iron_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_hoe"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "iron_shovel",
+      "iron_pickaxe",
+      "iron_sword",
+      "iron_axe",
+      "iron_hoe"
+    ]
+  ]
+}

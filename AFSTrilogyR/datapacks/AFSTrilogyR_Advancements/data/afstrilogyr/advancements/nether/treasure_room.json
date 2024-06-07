@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trapped_chest"
+    },
+    "title": "Treasure Hunter",
+    "description": "Find the treasure room in the Nether Fortress",
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "antfarm:nether/enter_fortress",
+  "criteria": {
+    "find_treasure_room": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": -112,
+                "max": -95
+              },
+              "y": {
+                "min": 115,
+                "max": 116
+              },
+              "z": {
+                "min": -13,
+                "max": -5
+              }
+            },
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    }
+  }
+}

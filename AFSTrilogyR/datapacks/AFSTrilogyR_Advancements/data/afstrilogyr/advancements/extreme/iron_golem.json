@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:carved_pumpkin"
+    },
+    "title": "True Iron Will",
+    "description": {
+      "text": "Construct an Iron Golem"
+    }
+  },
+  "parent": "antfarm:extreme/root",
+  "criteria": {
+    "make_iron_golem": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "player": {},
+        "entity": {
+          "type": "minecraft:iron_golem"
+        }
+      }
+    }
+  }
+}

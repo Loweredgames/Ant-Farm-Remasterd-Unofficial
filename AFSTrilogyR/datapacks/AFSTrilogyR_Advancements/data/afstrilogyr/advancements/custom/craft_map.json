@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": "...Why??",
+    "description": "Why did you make this?",
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "antfarm:compass",
+  "criteria": {
+    "craft_map": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:map"
+      }
+    }
+  }
+}

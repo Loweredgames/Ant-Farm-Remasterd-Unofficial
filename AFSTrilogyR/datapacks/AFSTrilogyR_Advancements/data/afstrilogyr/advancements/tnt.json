@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tnt"
+    },
+    "title": "This Block Will Self Destruct",
+    "description": "Acquire TNT",
+    "frame": "task"
+  },
+  "parent": "antfarm:root",
+  "criteria": {
+    "get_tnt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tnt"
+          }
+        ]
+      }
+    }
+  }
+}

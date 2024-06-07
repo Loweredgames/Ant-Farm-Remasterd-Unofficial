@@ -188,6 +188,7 @@ _JE-3a_
 - aggiunto il progetto in git per migliorare il flusso di lavoro
 - aggiornato il version_system alla 2.0
 - aggiunto il supporto della multi versione. funziona solo con il supporto multiversione. alcune versioni possono dare messaggi di errore ma funzionano lo stesso
+- aggiunti avanzamenti nella mappa
 
 
 ## Changed

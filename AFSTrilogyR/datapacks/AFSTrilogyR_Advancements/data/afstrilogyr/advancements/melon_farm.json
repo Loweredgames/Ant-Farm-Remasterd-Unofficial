@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:melon_slice"
+    },
+    "title": "Plant Melon",
+    "description": "Plant some melon seeds to start a melon farm"
+  },
+  "parent": "antfarm:wheat_farm",
+  "criteria": {
+    "plant_melon": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:melon_seeds"
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:farmland"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

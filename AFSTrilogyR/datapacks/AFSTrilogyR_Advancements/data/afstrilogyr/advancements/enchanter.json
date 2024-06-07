@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanting_table",
+      "count": 1
+    },
+    "title": {
+      "text": "Enchanter"
+    },
+    "description": {
+      "text": "Enchant an item"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "antfarm:diamonds",
+  "criteria": {
+    "enchanted_item": {
+      "trigger": "minecraft:enchanted_item"
+    }
+  }
+}

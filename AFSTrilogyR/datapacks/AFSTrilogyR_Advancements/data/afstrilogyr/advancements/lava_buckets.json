@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lava_bucket"
+    },
+    "title": "Superhot",
+    "description": "Collect 9 buckets of lava (you'll need these later)"
+  },
+  "parent": "antfarm:nether/root",
+  "criteria": {
+    "9_lava_buckets": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lava_bucket",
+            "count": {
+              "min": 9
+            }
+          }
+        ]
+      }
+    }
+  }
+}
