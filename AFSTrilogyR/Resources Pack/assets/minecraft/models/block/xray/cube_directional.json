@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/xray/cube",
+    "textures": {
+        "particle": "#east",
+        "down": "#down",
+        "up": "#up",
+        "north": "#north",
+        "east": "#east",
+        "south": "#south",
+        "west": "#west"
+    }
+}
