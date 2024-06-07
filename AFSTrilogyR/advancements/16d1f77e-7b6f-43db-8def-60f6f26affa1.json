@@ -1,0 +1,10 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:mushroom_fields": "2022-04-03 17:59:25 +0200",
+      "minecraft:plains": "2022-04-03 15:05:55 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 2975
+}
