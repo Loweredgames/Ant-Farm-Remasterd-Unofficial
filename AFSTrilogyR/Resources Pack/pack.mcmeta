@@ -1,6 +1,7 @@
 {
   "pack": {
     "pack_format": 8,
-    "description": "Ant Farm Trilogy Remastered"
+    "supported_formats": {"min_inclusive": 8, "max_inclusive": 400000},
+    "description": "Ant Farm Trilogy Remastered By Lorenzo Giannini, Original Created By MGPlatinum"
   }
 }
