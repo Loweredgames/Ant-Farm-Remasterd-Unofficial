@@ -10,6 +10,7 @@ difficulty normal
 time set 23500
 effect clear @a minecraft:night_vision
 function afstrilogyr:changelog/building
+function afstrilogyr:changelog/nightly_building
 scoreboard objectives add Deaths deathCount
 scoreboard objectives setdisplay list Deaths
 reload
