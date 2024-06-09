@@ -178,7 +178,7 @@ _JE-3a_
 
 -----------------------------------------------------------------
 
-# JE-1.18.2-AFTR:VERSION:2.0.0 (?????)
+# JE-1.18.2-AFTR:VERSION:2.0.0 LTS (?????)
 
 
 *AFTR*
@@ -188,6 +188,8 @@ _JE-3a_
 - aggiunto il progetto in git per migliorare il flusso di lavoro
 - aggiornato il version_system alla 2.0
 - aggiunto il supporto della multi versione. funziona solo con il supporto multiversione. alcune versioni possono dare messaggi di errore ma funzionano lo stesso
+- Xaggiornato alla versione di Minecraft 1.20.6
+- - Xaggiornato il pack e il resources pack
 
 
 ## Changed
