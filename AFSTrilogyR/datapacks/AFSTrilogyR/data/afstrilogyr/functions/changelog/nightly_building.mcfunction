@@ -22,4 +22,4 @@ bossbar set nightly_building name {"text":"JE-1.18.2-AFTR:NIGHTLY_BUILDING:07.06
 
 
 ##NIGHTLY BUILDING VERSION (BOSSBAR VISIBILE: SOLO PER GIT, DISABILITARE PER I RILASCI)
-bossbar set minecraft:nightly_building visible false
+bossbar set minecraft:nightly_building visible true

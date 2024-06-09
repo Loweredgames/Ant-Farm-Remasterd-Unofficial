@@ -1,0 +1,2 @@
+function afstrilogyr:changelog/building
+function afstrilogyr:changelog/nightly_building
