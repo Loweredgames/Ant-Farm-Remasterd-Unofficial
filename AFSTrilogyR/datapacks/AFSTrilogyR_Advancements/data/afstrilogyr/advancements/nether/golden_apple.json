@@ -3,20 +3,13 @@
     "icon": {
       "id": "minecraft:golden_apple"
     },
-    "title": {
-      "text": "Golden Delight"
-    },
-    "description": {
-      "text": "Craft a golden apple."
-    },
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
+    "title": "Hunt for the Golden Apple",
+    "description": "Craft a golden apple",
+    "frame": "task"
   },
   "parent": "afstrilogyr:nether/gold_nuggets",
   "criteria": {
-    "make_golden_apple": {
+    "craft_golden_apple": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
         "recipe_id": "minecraft:golden_apple"

@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_chirp",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": "Buurrhhhh...",
+    "description": "Obtain a Zombie Dungeon medal"
+  },
+  "parent": "afstrilogyr:extremecustom/obtain_any_medal",
+  "criteria": {
+    "obtain_zombie_pigman_medal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        },
+        "items": [
+          {
+            "items": "minecraft:music_disc_chirp",
+            "components": {
+              "minecraft:custom_name": "{\"text\":\"Zombie Dungeon Medal\"}"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

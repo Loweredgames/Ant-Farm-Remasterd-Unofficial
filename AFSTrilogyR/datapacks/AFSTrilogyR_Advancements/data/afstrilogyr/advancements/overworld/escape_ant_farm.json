@@ -1,0 +1,82 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sunflower"
+    },
+    "title": "Breaking the Glass Ceiling",
+    "description": "Escape the Ant Farm (save this for last)"
+  },
+  "parent": "afstrilogyr:overworld/enter_nether",
+  "criteria": {
+    "leave_ant_farm": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 11,
+                "max": 139
+              },
+              "y": 153,
+              "z": {
+                "min": -83,
+                "max": -73
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    },
+    "reach_floor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": -56,
+                "max": 233
+              },
+              "y": 26,
+              "z": {
+                "min": -222,
+                "max": 73
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    },
+    "ant_farm_base": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 3,
+                "max": 150
+              },
+              "y": 68,
+              "z": {
+                "min": -96,
+                "max": -55
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "leave_ant_farm",
+      "ant_farm_base",
+      "reach_floor"
+    ]
+  ]
+}

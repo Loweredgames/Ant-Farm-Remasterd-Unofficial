@@ -3,19 +3,19 @@
     "icon": {
       "id": "minecraft:diamond_chestplate"
     },
-    "title": {
-      "text": "Fully Stacked Diamonds"
-    },
-    "description": {
-      "text": "Craft full Diamond Armor and Tools (no hoe)"
-    }
+    "title": "Fully Stacked Diamonds",
+    "description": "Craft full Diamond Armor and Tools (no hoe)"
   },
   "parent": "afstrilogyr:extreme/root",
   "criteria": {
     "diamond_gear": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": {},
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        },
         "items": [
           {
             "items": [

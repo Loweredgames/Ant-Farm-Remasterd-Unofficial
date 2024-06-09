@@ -1,15 +1,14 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:gold_nugget"
+      "id": "minecraft:lava_bucket"
     },
-    "title": "Renewable Au",
-    "description": "Obtain gold nuggets",
-    "frame": "task"
+    "title": "How Don't They Melt, Anyway?",
+    "description": "Collect some lava from the Nether (you'll need these later)"
   },
   "parent": "afstrilogyr:nether/root",
   "criteria": {
-    "get_gold_nuggets": {
+    "lava_bucket_detect_function": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
@@ -19,7 +18,7 @@
         },
         "items": [
           {
-            "items": "minecraft:gold_nugget"
+            "items": "minecraft:lava_bucket"
           }
         ]
       }

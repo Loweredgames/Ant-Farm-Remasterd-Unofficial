@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bedrock"
+    },
+    "title": "The Final Chapter",
+    "description": "Activate the Gateway to seal yourself away in the Forbidden Ant Farm",
+    "background": "minecraft:textures/gui/advancements/backgrounds/end.png",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "afstrilogyr:extremecustom/place_dragon_egg",
+  "criteria": {
+    "enter_forbidden": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": -183,
+                "max": -5
+              },
+              "y": {
+                "min": 57,
+                "max": 191
+              },
+              "z": {
+                "min": 343,
+                "max": 362
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    }
+  }
+}

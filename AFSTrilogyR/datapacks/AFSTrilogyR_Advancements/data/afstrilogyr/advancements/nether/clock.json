@@ -3,16 +3,9 @@
     "icon": {
       "id": "minecraft:clock"
     },
-    "title": {
-      "text": "Mystery of the Time Keeper"
-    },
-    "description": {
-      "text": "Craft a clock."
-    },
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
+    "title": "Mystery of the Time Keeper",
+    "description": "Craft a clock",
+    "frame": "task"
   },
   "parent": "afstrilogyr:nether/gold_nuggets",
   "criteria": {

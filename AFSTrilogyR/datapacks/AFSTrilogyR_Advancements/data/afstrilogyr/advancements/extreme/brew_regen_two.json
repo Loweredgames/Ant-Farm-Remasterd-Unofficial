@@ -1,21 +1,36 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:splash_potion"
+      "id": "minecraft:splash_potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:strong_regeneration"
+        }
+      }
     },
-    "title": {
-      "text": "Master Brewer"
-    },
-    "description": {
-      "text": "Brew a Splash Potion of Regeneration II"
-    }
+    "title": "Master Brewer",
+    "description": "Brew a Splash Potion of Regeneration II"
   },
   "parent": "afstrilogyr:extreme/root",
   "criteria": {
     "brew_regeneration_potion": {
-      "trigger": "minecraft:brewed_potion",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "potion": "minecraft:strong_regeneration"
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        },
+        "items": [
+          {
+            "items": "minecraft:splash_potion",
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:strong_regeneration"
+              }
+            }
+          }
+        ]
       }
     }
   }

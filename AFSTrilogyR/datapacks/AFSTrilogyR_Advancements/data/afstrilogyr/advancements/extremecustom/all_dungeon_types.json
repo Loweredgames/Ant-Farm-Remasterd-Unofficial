@@ -1,0 +1,626 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_sword"
+    },
+    "title": "Dungeons & Dungeons",
+    "description": "Journey to every unique Dungeon type"
+  },
+  "parent": "afstrilogyr:extremecustom/enter_dungeon",
+  "criteria": {
+    "in_skeleton_dungeon_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 164,
+                "max": 173
+              },
+              "y": {
+                "min": 26,
+                "max": 33
+              },
+              "z": {
+                "min": -53,
+                "max": -47
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "in_skeleton_dungeon_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 164,
+                "max": 173
+              },
+              "y": {
+                "min": 30,
+                "max": 37
+              },
+              "z": {
+                "min": 25,
+                "max": 31
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "in_skeleton_dungeon_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 19,
+                "max": 28
+              },
+              "y": {
+                "min": 4,
+                "max": 11
+              },
+              "z": {
+                "min": 41,
+                "max": 47
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "in_skeleton_dungeon_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 149,
+                "max": 155
+              },
+              "y": {
+                "min": 59,
+                "max": 66
+              },
+              "z": {
+                "min": -76,
+                "max": -67
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "in_spider_dungeon_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 162,
+                "max": 171
+              },
+              "y": {
+                "min": 60,
+                "max": 67
+              },
+              "z": {
+                "min": 31,
+                "max": 36
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "in_spider_dungeon_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 31,
+                "max": 22
+              },
+              "y": {
+                "min": 3,
+                "max": 10
+              },
+              "z": {
+                "min": -1,
+                "max": -6
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "in_spider_dungeon_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 75,
+                "max": 80
+              },
+              "y": {
+                "min": 9,
+                "max": 16
+              },
+              "z": {
+                "min": -79,
+                "max": -70
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "in_spider_dungeon_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 124,
+                "max": 129
+              },
+              "y": {
+                "min": 10,
+                "max": 17
+              },
+              "z": {
+                "min": -78,
+                "max": -69
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "in_hardcore_dungeon_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 163,
+                "max": 170
+              },
+              "y": {
+                "min": 8,
+                "max": 16
+              },
+              "z": {
+                "min": -49,
+                "max": -40
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "in_hardcore_dungeon_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 19,
+                "max": 28
+              },
+              "y": {
+                "min": 3,
+                "max": 11
+              },
+              "z": {
+                "min": 18,
+                "max": 25
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "in_hardcore_dungeon_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 76,
+                "max": 83
+              },
+              "y": {
+                "min": 71,
+                "max": 79
+              },
+              "z": {
+                "min": 68,
+                "max": 77
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "in_hardcore_dungeon_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 146,
+                "max": 153
+              },
+              "y": {
+                "min": 47,
+                "max": 55
+              },
+              "z": {
+                "min": -75,
+                "max": -66
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "in_creeper_dungeon_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 163,
+                "max": 172
+              },
+              "y": {
+                "min": 41,
+                "max": 48
+              },
+              "z": {
+                "min": -25,
+                "max": -19
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "in_creeper_dungeon_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 1,
+                "max": 30
+              },
+              "y": {
+                "min": 56,
+                "max": 63
+              },
+              "z": {
+                "min": -33,
+                "max": -27
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "in_creeper_dungeon_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 40,
+                "max": 46
+              },
+              "y": {
+                "min": 10,
+                "max": 17
+              },
+              "z": {
+                "min": -74,
+                "max": -65
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "in_creeper_dungeon_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 107,
+                "max": 113
+              },
+              "y": {
+                "min": 55,
+                "max": 62
+              },
+              "z": {
+                "min": -77,
+                "max": -68
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "in_zombie_pigman_dungeon_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 164,
+                "max": 170
+              },
+              "y": {
+                "min": 90,
+                "max": 97
+              },
+              "z": {
+                "min": -5,
+                "max": 4
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "in_zombie_pigman_dungeon_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 20,
+                "max": 29
+              },
+              "y": {
+                "min": 49,
+                "max": 56
+              },
+              "z": {
+                "min": 39,
+                "max": 46
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "in_zombie_pigman_dungeon_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 85,
+                "max": 92
+              },
+              "y": {
+                "min": 31,
+                "max": 38
+              },
+              "z": {
+                "min": -77,
+                "max": -68
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "in_zombie_pigman_dungeon_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 79,
+                "max": 88
+              },
+              "y": {
+                "min": 4,
+                "max": 11
+              },
+              "z": {
+                "min": 72,
+                "max": 78
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "in_zombie_dungeon_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 23,
+                "max": 32
+              },
+              "y": {
+                "min": 25,
+                "max": 32
+              },
+              "z": {
+                "min": -55,
+                "max": -49
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "in_zombie_dungeon_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 19,
+                "max": 28
+              },
+              "y": {
+                "min": 48,
+                "max": 55
+              },
+              "z": {
+                "min": 8,
+                "max": 14
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "in_zombie_dungeon_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 149,
+                "max": 155
+              },
+              "y": {
+                "min": 21,
+                "max": 28
+              },
+              "z": {
+                "min": 68,
+                "max": 77
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "in_zombie_dungeon_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 20,
+                "max": 29
+              },
+              "y": {
+                "min": 79,
+                "max": 86
+              },
+              "z": {
+                "min": -36,
+                "max": -43
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "in_skeleton_dungeon_1",
+      "in_skeleton_dungeon_2",
+      "in_skeleton_dungeon_3",
+      "in_skeleton_dungeon_4"
+    ],
+    [
+      "in_spider_dungeon_1",
+      "in_spider_dungeon_2",
+      "in_spider_dungeon_3",
+      "in_spider_dungeon_4"
+    ],
+    [
+      "in_hardcore_dungeon_1",
+      "in_hardcore_dungeon_2",
+      "in_hardcore_dungeon_3",
+      "in_hardcore_dungeon_4"
+    ],
+    [
+      "in_creeper_dungeon_1",
+      "in_creeper_dungeon_2",
+      "in_creeper_dungeon_3",
+      "in_creeper_dungeon_4"
+    ],
+    [
+      "in_zombie_pigman_dungeon_1",
+      "in_zombie_pigman_dungeon_2",
+      "in_zombie_pigman_dungeon_3",
+      "in_zombie_pigman_dungeon_4"
+    ],
+    [
+      "in_zombie_dungeon_1",
+      "in_zombie_dungeon_2",
+      "in_zombie_dungeon_3",
+      "in_zombie_dungeon_4"
+    ]
+  ]
+}

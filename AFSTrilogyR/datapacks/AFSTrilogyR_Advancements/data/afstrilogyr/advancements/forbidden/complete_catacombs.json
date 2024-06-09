@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_strad",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": "The Forbidden Wand",
+    "description": "Complete the Withering Catacombs",
+    "frame": "challenge"
+  },
+  "parent": "afstrilogyr:forbidden/withering_catacombs",
+  "criteria": {
+    "leave_withering_catacombs_button": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "x": {
+                  "min": -132,
+                  "max": -131
+                },
+                "y": {
+                  "min": 7,
+                  "max": 8
+                },
+                "z": {
+                  "min": 197,
+                  "max": 198
+                }
+              },
+              "dimension": "minecraft:overworld",
+              "block": {
+                "blocks": "minecraft:stone_button"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glass"
+    },
+    "title": "Ant Farm In A Block",
+    "description": "Smelt sand to make glass"
+  },
+  "parent": "afstrilogyr:overworld/root",
+  "criteria": {
+    "smelt_glass": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:glass"
+      }
+    }
+  }
+}

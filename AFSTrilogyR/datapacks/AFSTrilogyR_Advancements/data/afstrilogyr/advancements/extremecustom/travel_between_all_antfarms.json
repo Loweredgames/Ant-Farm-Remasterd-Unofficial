@@ -1,0 +1,109 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": "Mr. Worldwide",
+    "description": "Traverse every inter-antfarm tunnel",
+    "frame": "challenge"
+  },
+  "parent": "afstrilogyr:extremecustom/travel_between_antfarm",
+  "criteria": {
+    "enter_overworld_to_end": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 161,
+                "max": 168
+              },
+              "y": {
+                "min": 16,
+                "max": 16
+              },
+              "z": {
+                "min": -73,
+                "max": -63
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "enter_end_to_mushroom": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 24,
+                "max": 32
+              },
+              "y": {
+                "min": 3,
+                "max": 5
+              },
+              "z": {
+                "min": -70,
+                "max": -64
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "enter_mushroom_to_nether": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 25,
+                "max": 32
+              },
+              "y": {
+                "min": 29,
+                "max": 31
+              },
+              "z": {
+                "min": 64,
+                "max": 71
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "enter_nether_to_overworld": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 160,
+                "max": 168
+              },
+              "y": {
+                "min": 74,
+                "max": 76
+              },
+              "z": {
+                "min": 65,
+                "max": 72
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  }
+}

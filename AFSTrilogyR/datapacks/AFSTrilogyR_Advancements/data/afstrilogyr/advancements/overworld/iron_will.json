@@ -1,0 +1,71 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_pickaxe"
+    },
+    "title": "Iron Will",
+    "description": "Obtain any iron tool"
+  },
+  "parent": "afstrilogyr:overworld/root",
+  "criteria": {
+    "iron_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_shovel"
+          }
+        ]
+      }
+    },
+    "iron_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_pickaxe"
+          }
+        ]
+      }
+    },
+    "iron_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_sword"
+          }
+        ]
+      }
+    },
+    "iron_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_axe"
+          }
+        ]
+      }
+    },
+    "iron_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_hoe"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "iron_shovel",
+      "iron_pickaxe",
+      "iron_sword",
+      "iron_axe",
+      "iron_hoe"
+    ]
+  ]
+}

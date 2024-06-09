@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_block"
+    },
+    "title": "Monsters Under The Bed",
+    "description": "Collect the diamond block under the bed"
+  },
+  "parent": "afstrilogyr:overworld/reach_floor",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 33,
+                "max": 43
+              },
+              "y": {
+                "min": 25,
+                "max": 30
+              },
+              "z": {
+                "min": 29,
+                "max": 39
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_block"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

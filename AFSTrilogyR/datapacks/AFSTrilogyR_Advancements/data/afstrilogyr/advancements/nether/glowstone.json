@@ -9,7 +9,7 @@
   },
   "parent": "afstrilogyr:nether/root",
   "criteria": {
-    "find_glowstone": {
+    "obtain_glowstone_dust": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {

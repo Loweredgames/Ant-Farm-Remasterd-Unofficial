@@ -14,15 +14,33 @@
   "parent": "afstrilogyr:nether/enter_fortress",
   "criteria": {
     "healing": {
-      "trigger": "minecraft:brewed_potion",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "potion": "minecraft:healing"
+        "items": [
+          {
+            "items": "minecraft:potion",
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:healing"
+              }
+            }
+          }
+        ]
       }
     },
     "strong_healing": {
-      "trigger": "minecraft:brewed_potion",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "potion": "minecraft:strong_healing"
+        "items": [
+          {
+            "items": "minecraft:potion",
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:strong_healing"
+              }
+            }
+          }
+        ]
       }
     }
   },

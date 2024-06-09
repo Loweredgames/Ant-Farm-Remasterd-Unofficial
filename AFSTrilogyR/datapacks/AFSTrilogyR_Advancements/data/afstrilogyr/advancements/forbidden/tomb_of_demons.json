@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobweb"
+    },
+    "title": "Tomb of Demons",
+    "description": "Enter the Tomb of Demons"
+  },
+  "parent": "afstrilogyr:forbidden/root",
+  "criteria": {
+    "enter_tomb": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 254,
+                "max": 256
+              },
+              "y": {
+                "min": 42,
+                "max": 47
+              },
+              "z": {
+                "min": 295,
+                "max": 297
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    }
+  }
+}

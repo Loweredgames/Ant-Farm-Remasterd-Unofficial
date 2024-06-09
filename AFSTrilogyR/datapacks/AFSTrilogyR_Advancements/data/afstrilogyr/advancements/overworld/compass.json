@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:compass"
+    },
+    "title": "Somewhat Useless",
+    "description": "Obtain a compass",
+    "frame": "task"
+  },
+  "parent": "afstrilogyr:overworld/iron_will",
+  "criteria": {
+    "craft_compass": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:compass"
+      }
+    }
+  }
+}

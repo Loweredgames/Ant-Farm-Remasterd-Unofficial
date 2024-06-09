@@ -8,7 +8,7 @@
     "frame": "challenge",
     "hidden": true
   },
-  "parent": "afstrilogyr:compass",
+  "parent": "afstrilogyr:overworld/compass",
   "criteria": {
     "craft_map": {
       "trigger": "minecraft:recipe_crafted",

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chicken_spawn_egg"
+    },
+    "title": "Chicken Man Confirmed",
+    "description": "Find and activate the hidden chicken spawner",
+    "frame": "task"
+  },
+  "parent": "afstrilogyr:overworld/wheat_farm",
+  "criteria": {
+    "find_chicken_spawner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 134,
+                "max": 138
+              },
+              "y": {
+                "min": 90,
+                "max": 96
+              },
+              "z": {
+                "min": -82,
+                "max": -78
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

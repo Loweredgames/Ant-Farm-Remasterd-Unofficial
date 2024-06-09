@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bone"
+    },
+    "title": "Ant's Best Friend",
+    "description": "Tame a wolf",
+    "frame": "task"
+  },
+  "parent": "afstrilogyr:overworld/root",
+  "criteria": {
+    "tame_wolf": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wolf"
+        }
+      }
+    }
+  }
+}

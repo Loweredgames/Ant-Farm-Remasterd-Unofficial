@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:flint_and_steel"
+    },
+    "title": "Into the Inferno",
+    "description": "Enter the nether",
+    "frame": "goal"
+  },
+  "parent": "afstrilogyr:custom/diamonds",
+  "criteria": {
+    "enter_nether": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_nether"
+      }
+    }
+  }
+}

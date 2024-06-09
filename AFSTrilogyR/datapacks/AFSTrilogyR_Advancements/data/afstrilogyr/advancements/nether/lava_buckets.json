@@ -3,23 +3,14 @@
     "icon": {
       "id": "minecraft:lava_bucket"
     },
-    "title": "Superhot",
-    "description": "Collect 9 buckets of lava (you'll need these later)"
+    "title": "How Don't They Melt, Anyway?",
+    "description": "Collect 9 buckets of lava (you'll need these later)",
+    "hidden": true
   },
   "parent": "afstrilogyr:nether/root",
   "criteria": {
-    "9_lava_buckets": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:lava_bucket",
-            "count": {
-              "min": 9
-            }
-          }
-        ]
-      }
+    "lava_bucket_detect_function": {
+      "trigger": "minecraft:impossible"
     }
   }
 }

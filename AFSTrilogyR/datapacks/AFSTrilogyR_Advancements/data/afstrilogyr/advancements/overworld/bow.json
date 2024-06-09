@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
+    },
+    "title": "Archery Classes",
+    "description": "Craft a bow"
+  },
+  "parent": "afstrilogyr:overworld/root",
+  "criteria": {
+    "make_bow": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bow"
+      }
+    }
+  }
+}
