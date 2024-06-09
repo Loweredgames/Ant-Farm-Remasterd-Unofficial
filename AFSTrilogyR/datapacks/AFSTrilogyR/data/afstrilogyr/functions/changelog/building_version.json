@@ -3,15 +3,15 @@
 
 "Edition": "JAVA EDITION",
 
-"Release Versions": "2.0.0",
+"Release Versions": "2.0.0 LTS",
 
-"Release Building": "JE-1.18.2-AFTR:VERSION:2.0.0",
+"Release Building": "JE-1.20.6-AFTR:VERSION:2.0.0 LTS",
 
 "Resource_pack": "TRUE",
 
 "Data_pack": "TRUE",
 
-"Github_tag": "1.18.2_JE_0a",
+"Github_tag": "1.20.6_JE_0a",
 
 "Github": "https://github.com/Loweredgames/Ant-Farm-Remasterd",
 
