@@ -1,11 +1,11 @@
 {
-"Name": "Ant Farm Trilogy Remastered",
+"Name": "Ant Farm Trilogy Remastered Unofficial",
 
 "Edition": "JAVA EDITION",
 
-"Release Versions": "2.0.0 LTS",
+"Release Versions": "2.0.0 LTS [Release Update]",
 
-"Release Building": "JE-1.20.6-AFTR:VERSION:2.0.0 LTS",
+"Release Building": "JE-1.20.6-AFTRU:BUILDING:10.06.2024a",
 
 "Resource_pack": "TRUE",
 
@@ -13,7 +13,7 @@
 
 "Github_tag": "1.20.6_JE_0a",
 
-"Github": "https://github.com/Loweredgames/Ant-Farm-Remasterd",
+"Github": "https://github.com/Loweredgames/Ant-Farm-Remasterd-Unofficial",
 
 "Website":"https://minecraft-map-building-versions.blogspot.com/"
 }

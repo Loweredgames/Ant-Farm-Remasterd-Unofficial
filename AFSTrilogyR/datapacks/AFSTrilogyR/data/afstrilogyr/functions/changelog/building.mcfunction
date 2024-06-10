@@ -17,7 +17,7 @@ bossbar set minecraft:building max 100
 
 
 ##BUILDING VERSION NUMBER (NUMERO DELLA VERSIONE VISTO IN ALTRO, SOLO NELLE VERSIONI DI SVILUPPO)
-bossbar set building name {"text":"JE-1.20.6-AFTR:VERSION:2.0.0 LTS","color":"white","bold":true}
+bossbar set building name {"text":"JE-1.20.6-AFTRU:BUILDING:10.06.2024a","color":"white","bold":true}
 
 
 ##MAP PROGRESS (I PROGRESSI DELLA MAPPA, E UN NUMERO APROSSIMATO)
@@ -29,4 +29,4 @@ title @a actionbar {"text":"\u26a0Work in Progress\u26a0","bold":true,"color":"d
 
 
 ##BUILDING VERSION (BOSSBAR VISIBILE: True SOLO VERSIONI DI SVILUPPO o False VERSIONI STABILI, TENERE ACCESO PER LE NIGHT BUILDING)
-bossbar set minecraft:building visible false
+bossbar set minecraft:building visible true
