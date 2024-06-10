@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glowstone"
+    },
+    "title": "Brighter Than Torches",
+    "description": "Find and harvest glowstone",
+    "frame": "task"
+  },
+  "parent": "afstrilogyr:nether/root",
+  "criteria": {
+    "obtain_glowstone_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        },
+        "items": [
+          {
+            "items": "minecraft:glowstone_dust"
+          }
+        ]
+      }
+    }
+  }
+}

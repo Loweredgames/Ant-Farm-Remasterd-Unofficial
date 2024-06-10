@@ -1,0 +1,15 @@
+{
+  "pack": {
+    "pack_format": 400000,
+    "supported_formats": {"min_inclusive": 41, "max_inclusive": 400000},
+    "description": "Advancements for the Ant Farm Trilogy Remastered By Easyidle123"
+  },
+  "filter": {
+      "block": [
+          {
+              "namespace": "minecraft",
+              "path": "advancements/.*"
+          }
+      ]
+  }
+}

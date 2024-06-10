@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_11",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": "The Forbidden Blade",
+    "description": "Complete the Tomb of Demons",
+    "frame": "challenge"
+  },
+  "parent": "afstrilogyr:forbidden/tomb_of_demons",
+  "criteria": {
+    "leave_tomb_button": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "x": {
+                  "min": 250,
+                  "max": 251
+                },
+                "y": {
+                  "min": 43,
+                  "max": 44
+                },
+                "z": {
+                  "min": 303,
+                  "max": 304
+                }
+              },
+              "dimension": "minecraft:overworld",
+              "block": {
+                "blocks": "minecraft:stone_button"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

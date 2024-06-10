@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clock"
+    },
+    "title": "Mystery of the Time Keeper",
+    "description": "Craft a clock",
+    "frame": "task"
+  },
+  "parent": "afstrilogyr:nether/gold_nuggets",
+  "criteria": {
+    "make_clock": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:clock"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:carved_pumpkin"
+    },
+    "title": "True Iron Will",
+    "description": "Construct an Iron Golem"
+  },
+  "parent": "afstrilogyr:extreme/root",
+  "criteria": {
+    "make_iron_golem": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        },
+        "entity": {
+          "type": "minecraft:iron_golem"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glass"
+    },
+    "title": "Hell Above",
+    "description": "Break outside of the Extreme Ant Farm. Prepare for a fight..."
+  },
+  "parent": "afstrilogyr:extremecustom/enter_dragon_den",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "min": 142
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  }
+}

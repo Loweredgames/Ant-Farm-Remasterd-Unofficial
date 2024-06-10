@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_bricks"
+    },
+    "title": "Shimmered Cave",
+    "description": "Enter the Shimmered Cave"
+  },
+  "parent": "afstrilogyr:forbidden/root",
+  "criteria": {
+    "enter_shimmered_cave": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 164,
+                "max": 292
+              },
+              "y": {
+                "min": 1,
+                "max": 44
+              },
+              "z": {
+                "min": 167,
+                "max": 231
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_nugget"
+    },
+    "title": "Renewable Au",
+    "description": "Obtain gold nuggets",
+    "frame": "task"
+  },
+  "parent": "afstrilogyr:nether/root",
+  "criteria": {
+    "get_gold_nuggets": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        },
+        "items": [
+          {
+            "items": "minecraft:gold_nugget"
+          }
+        ]
+      }
+    }
+  }
+}

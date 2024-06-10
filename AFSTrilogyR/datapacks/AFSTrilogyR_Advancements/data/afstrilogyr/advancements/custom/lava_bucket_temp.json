@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lava_bucket"
+    },
+    "title": "How Don't They Melt, Anyway?",
+    "description": "Collect some lava from the Nether (you'll need these later)"
+  },
+  "parent": "afstrilogyr:nether/root",
+  "criteria": {
+    "lava_bucket_detect_function": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        },
+        "items": [
+          {
+            "items": "minecraft:lava_bucket"
+          }
+        ]
+      }
+    }
+  }
+}

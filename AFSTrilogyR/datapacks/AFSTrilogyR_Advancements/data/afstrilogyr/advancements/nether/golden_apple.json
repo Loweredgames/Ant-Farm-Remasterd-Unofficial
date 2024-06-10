@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_apple"
+    },
+    "title": "Hunt for the Golden Apple",
+    "description": "Craft a golden apple",
+    "frame": "task"
+  },
+  "parent": "afstrilogyr:nether/gold_nuggets",
+  "criteria": {
+    "craft_golden_apple": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_apple"
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_egg"
+    },
+    "title": "Extremely Forbidden",
+    "description": "Unlock the ability to summon the Forbidden Gateway"
+  },
+  "parent": "afstrilogyr:extremecustom/escape_extreme_ant_farm",
+  "criteria": {
+    "unlock_forbidden_gateway": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

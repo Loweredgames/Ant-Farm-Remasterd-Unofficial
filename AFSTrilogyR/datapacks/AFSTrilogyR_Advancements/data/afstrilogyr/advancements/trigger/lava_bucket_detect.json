@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "lava_bucket_detect_overworld": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:overworld"
+          }
+        },
+        "items": [
+          {
+            "items": "minecraft:lava_bucket"
+          }
+        ]
+      }
+    },
+    "lava_bucket_detect_nether": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "afstrilogyr:nether/placefunctionhere"
+  }
+}

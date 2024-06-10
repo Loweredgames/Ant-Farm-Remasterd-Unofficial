@@ -1,0 +1,94 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_mellohi"
+    },
+    "title": "Medal Detector",
+    "description": "Obtain your first Medal from a Dungeon"
+  },
+  "parent": "afstrilogyr:extremecustom/enter_dungeon",
+  "criteria": {
+    "obtain_creeper_medal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_cat"
+            ]
+          }
+        ]
+      }
+    },
+    "obtain_spider_medal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_13"
+            ]
+          }
+        ]
+      }
+    },
+    "obtain_hardcore_medal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_mall"
+            ]
+          }
+        ]
+      }
+    },
+    "obtain_zombie_pigman_medal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_far"
+            ]
+          }
+        ]
+      }
+    },
+    "obtain_skeleton_medal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_blocks"
+            ]
+          }
+        ]
+      }
+    },
+    "obtain_zombie_medal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_chirp"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_creeper_medal",
+      "obtain_spider_medal",
+      "obtain_hardcore_medal",
+      "obtain_zombie_pigman_medal",
+      "obtain_skeleton_medal",
+      "obtain_zombie_medal"
+    ]
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bucket"
+    },
+    "title": "Bucket List",
+    "description": "Craft a bucket"
+  },
+  "parent": "afstrilogyr:overworld/iron_will",
+  "criteria": {
+    "craft_bucket": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bucket"
+      }
+    }
+  }
+}

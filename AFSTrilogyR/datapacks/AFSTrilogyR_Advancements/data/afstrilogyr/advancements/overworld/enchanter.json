@@ -1,0 +1,16 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanting_table",
+      "count": 1
+    },
+    "title": "Strange Magic",
+    "description": "Enchant an item"
+  },
+  "parent": "afstrilogyr:custom/diamonds",
+  "criteria": {
+    "enchanted_item": {
+      "trigger": "minecraft:enchanted_item"
+    }
+  }
+}

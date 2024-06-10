@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_eye"
+    },
+    "title": "The Next Extreme Chapter",
+    "description": "Activate and enter the secret End Portal to the Extreme Ant Farm"
+  },
+  "parent": "afstrilogyr:overworld/diamond_block",
+  "criteria": {
+    "enter_end_portal": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "minecraft:the_end"
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cake"
+    },
+    "title": "Let Them Eat Liecake",
+    "description": "Craft a cake",
+    "frame": "challenge"
+  },
+  "parent": "afstrilogyr:overworld/chicken_spawner",
+  "criteria": {
+    "make_cake": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cake"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_bricks"
+    },
+    "title": "A Terrible Palace",
+    "description": "Locate and enter the Nether Fortress"
+  },
+  "parent": "afstrilogyr:nether/gold_nuggets",
+  "criteria": {
+    "find_fortress": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": -123,
+                "max": -90
+              },
+              "y": {
+                "min": 113,
+                "max": 134
+              },
+              "z": {
+                "min": -13,
+                "max": -5
+              }
+            },
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    }
+  }
+}

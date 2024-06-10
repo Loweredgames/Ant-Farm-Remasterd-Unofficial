@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:zombie_head"
+    },
+    "title": "The Zombies Ate Your Brains!",
+    "description": "Activate the zombie door"
+  },
+  "parent": "afstrilogyr:overworld/reach_floor",
+  "criteria": {
+    "push_zombie_button": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "x": {
+                  "min": -56,
+                  "max": -55
+                },
+                "y": {
+                  "min": 27,
+                  "max": 28
+                },
+                "z": {
+                  "min": -51,
+                  "max": -50
+                }
+              },
+              "dimension": "minecraft:overworld",
+              "block": {
+                "blocks": "minecraft:stone_button"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

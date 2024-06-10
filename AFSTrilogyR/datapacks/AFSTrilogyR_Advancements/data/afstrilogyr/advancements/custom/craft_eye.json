@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_eye"
+    },
+    "title": "Useless, or...?",
+    "description": "Craft an Eye of Ender"
+  },
+  "parent": "afstrilogyr:nether/enter_fortress",
+  "criteria": {
+    "craft_eye": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:ender_eye"
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_blocks",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": "Welcome To The Underground",
+    "description": "Obtain a Skeleton Dungeon medal"
+  },
+  "parent": "afstrilogyr:extremecustom/obtain_any_medal",
+  "criteria": {
+    "obtain_skeleton_medal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        },
+        "items": [
+          {
+            "items": "minecraft:music_disc_blocks",
+            "components": {
+              "minecraft:custom_name": "{\"text\":\"Skeleton Dungeon Medal\"}"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
