@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:wheat"
     },
-    "title": "Cultivating for the Colony",
+    "title": "Cultivating for the Ant Farm",
     "description": "Plant, grow and harvest a wheat farm"
   },
   "parent": "afstrilogyr:overworld/root",

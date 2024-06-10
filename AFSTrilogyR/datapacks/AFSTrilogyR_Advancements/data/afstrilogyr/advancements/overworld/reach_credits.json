@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:oak_sign"
     },
-    "title": "The End",
+    "title": "The End?",
     "description": "Get on top of the bed and watch the credits"
   },
   "parent": "afstrilogyr:overworld/reach_floor",

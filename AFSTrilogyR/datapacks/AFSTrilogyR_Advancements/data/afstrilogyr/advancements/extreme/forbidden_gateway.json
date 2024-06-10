@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:bedrock"
     },
-    "title": "The Final Chapter",
+    "title": "The Final Forbidden Chapter",
     "description": "Activate the Gateway to seal yourself away in the Forbidden Ant Farm",
     "background": "minecraft:textures/gui/advancements/backgrounds/end.png",
     "frame": "goal",

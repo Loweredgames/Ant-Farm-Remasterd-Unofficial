@@ -9,10 +9,14 @@
   },
   "parent": "afstrilogyr:overworld/iron_will",
   "criteria": {
-    "craft_compass": {
-      "trigger": "minecraft:recipe_crafted",
+    "obtain_compass": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "recipe_id": "minecraft:compass"
+        "items": [
+          {
+            "items": "minecraft:compass"
+          }
+        ]
       }
     }
   }

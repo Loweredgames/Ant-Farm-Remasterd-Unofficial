@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:glass"
     },
-    "title": "A Second Hell",
+    "title": "Hell Above",
     "description": "Break outside of the Extreme Ant Farm. Prepare for a fight..."
   },
   "parent": "afstrilogyr:extremecustom/enter_dragon_den",
