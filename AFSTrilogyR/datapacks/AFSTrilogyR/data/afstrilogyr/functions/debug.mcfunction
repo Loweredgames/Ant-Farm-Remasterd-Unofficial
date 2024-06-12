@@ -1,4 +1,4 @@
-##On
+## On
 execute as @a[scores={debug=1}] run advancement revoke @a everything
 execute as @a[scores={debug=1}] run gamerule randomTickSpeed 0
 execute as @a[scores={debug=1}] run gamerule doFireTick false
